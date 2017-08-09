@@ -1,1 +1,6 @@
 add some files to compress
+
+//use the follow command
+zxlycon push busybox-android /data/local/tmp/tool/busybox
+zxlycon shell chmod 0755 /data/local/tmp/tool/busybox 
+zxlycon shell /data/local/tool/busybox unzip /mnt/sdcard/Xiaomi/zmmzcs2.zip
